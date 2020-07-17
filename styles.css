@@ -3,10 +3,9 @@
     padding: 0;
 }
 header {
-    background-color: aqua;
+    background-color: rgba(246, 248, 94, 0.596);
 }
 .main {
-    border: 1px solid black;
     height: 100vh;
     background-image: url(./assets/bt2.jpg);
     background-color: rgb(161, 195, 255);
@@ -16,5 +15,6 @@ header {
 }
 .content {
     border: 1px solid black;
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
 }
