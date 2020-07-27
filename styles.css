@@ -98,6 +98,9 @@ button:hover::before {
     header {
         width: 100vw;
     }
+    .heading {
+        font-size: 1em;
+    }
 
     .paragraph {
         padding: 0;
