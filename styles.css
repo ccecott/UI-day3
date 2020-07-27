@@ -5,10 +5,7 @@
     font-size: 20px;
 
 }
-body {
-    /* background-color: rgb(161, 195, 255); */
 
-}
 header {
     display: flex;
     align-items: center;
@@ -96,3 +93,49 @@ button:hover::before {
     width: 101%;
 
 }
+
+@media screen and (max-width: 800px) {
+    header {
+        width: 100vw;
+    }
+
+    .paragraph {
+        padding: 0;
+    } 
+    p {
+        background-color: transparent;
+        border: none;
+    }
+    .picture {
+        position: relative;
+        top: -500px;
+        left: 160px;
+        z-index: -1;
+    }
+    button {
+        margin: 0;
+        align-self: center;
+        position: static bottom;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .picture {
+        position: relative;
+        top: -500px;
+        left: 100px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .picture {
+        position: relative;
+        top: -500px;
+        left: 70px;
+        z-index: -1;
+        width: 300px;
+        height: 300px;
+    }
+}
+
